@@ -1,2 +1,1 @@
-# reply-to-see
-nodebb plugin reply-to-see
+# Reply a topic to see the content 

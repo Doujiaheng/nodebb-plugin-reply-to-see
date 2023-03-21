@@ -1,0 +1,22 @@
+{
+	"id": "nodebb-plugin-reply-to-see",
+	"url": "https://github.com/Doujiaheng/nodebb-plugin-reply-to-see.git",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "filter:post.getPosts", "method": "getPostContent"
+
+		}
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/style.less"
+	],
+	"scripts": [
+		"static/lib/main.js",
+		"static/lib/admin.js"
+	],
+	"templates": "static/templates"
+}
